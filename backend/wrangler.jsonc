@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-22",  // Added missing comma
+
+  "vars": {
+    "DATABASE_URL": "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNWQ5ZTc1MzctZTAyOS00ZDAzLWFlZDItZmI4YzZjM2I1MjRhIiwidGVuYW50X2lkIjoiNzJiODBjYTE1ZTNkNWI0MTA2NTlmM2Y4NzY2Yjk1MTEzNmMyYmRlMjIxNGY1YWMxNTg4OGIwNDFmMWE4NGIzMiIsImludGVybmFsX3NlY3JldCI6IjdjZGE1NGRkLThmYjQtNDM0Ni1iMjA2LTYxYjI4NWI2OGM1ZiJ9.mNbgIiO1PUFxmrag46NEtlyhp0SM4n1-5kK-4OTRI10",
+    "JWT_SECRET": "Paritosh"
+  }
+}
